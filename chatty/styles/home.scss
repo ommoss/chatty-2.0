@@ -7,6 +7,7 @@ nav h1 { margin: 0; }
 #message-list .message .username,#message-list .message .content {
 display: inline-block; padding: 4px 0;
 }
+#users {float: right;}
 #message-list .message .username { flex: 15; margin-right: 16px; overflow: hidden; font-weight: 700;}
 #message-list .message .content { flex: 85; }
 #message-list .message.system { font-weight: 400; font-style: italic; }

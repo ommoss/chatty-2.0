@@ -10,7 +10,7 @@ class MessageList extends Component {
             {_data.map(function(object, i){
                return (
                 <div className = "message" key={object.id}>
-                <Message usernameProp = {object.username}
+                <Message usernameProp = {object.user}
                           contentProp = {object.content} />
                 </div>
                 )
